@@ -1,0 +1,312 @@
+* {
+            margin: 0;
+            padding: 0;
+            
+        }
+
+        .navbar,
+        .main {
+            object-fit: contain;
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+                url("https://analyticsindiamag.com/wp-content/uploads/2019/05/apps.55787.9007199266246365.687a10a8-4c4a-4a47-8ec5-a95f70d8852d.jpg");
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 23px;
+            margin: 0;
+        }
+
+        .logo {
+            width: 226px;
+            height: 135px;
+            margin-right: 400px;
+            margin-left: 0px;
+        }
+
+        select {
+            background-color: black;
+            color: white;
+            border-radius: 6px;
+            margin-left: 400px;
+            padding: 8px 16px;
+        }
+
+        .b1 {
+            background-color: red;
+            color: white;
+            border-radius: 6px;
+            padding: 8px 16px;
+        }
+
+        .option {
+            background-color: white;
+            color: black;
+        }
+
+        .main {
+            display: flex;
+            align-items: center;
+            flex-flow: column;
+            height: 80vh;
+            gap: 20px;
+            color: white;
+        }
+
+        .m1 {
+            font-size: xxx-large;
+            margin-top: 120px;
+            font-family: unset;
+            font-weight: 900;
+        }
+
+        .m2 {
+            font-size: larger;
+            font-weight: 800;
+        }
+
+        .m3 {
+            font-size: large;
+            margin-top: 10px;
+        }
+
+        .email {
+            padding-right: 300px;
+            padding-top: 22px;
+            padding-bottom: 19px;
+            color: white;
+            border-radius: 6px;
+            padding-left: 5px;
+            background-color: #212121db;
+            border-color: white;
+            margin-top: 20px;
+        }
+
+        .b2 {
+            background-color: red;
+            color: white;
+            padding-top: 10px;
+            padding-bottom: 15px;
+            border-radius: 6px;
+            padding-left: 20px;
+            padding-right: 25px;
+        }
+
+        .s1 {
+            font-size: 24px;
+            font-weight: 600;
+        }
+
+        .s2 {
+            width: 20px;
+            height: 20px;
+        }
+
+        .flex1 {
+            display: flex;
+            max-width: 75vw;
+            padding-left: 165px;
+            height: 40vh;
+        }
+
+        .flex2 {
+            display: flex;
+            padding: 50px;
+            gap: 20px;
+            padding-top: 10px;
+            padding-bottom: 40px;
+            max-width: 75vw;
+            height: 37vh;
+            padding-left: 165px;
+            background-color: black;
+        }
+
+        .af1 {
+            background-color: black;
+            padding-top: 15px;
+        }
+
+        .flex3 {
+            display: flex;
+            flex-direction: column;
+            gap: 2px;
+            padding-left: 165px;
+            max-width: 75vw;
+        }
+
+        .r {
+            border: 2px solid black;
+            border-radius: 18px;
+            padding: 10px;
+            color: white;
+            background-color: #1d101f;
+            flex: 1;
+        }
+
+        .footer {
+            display: flex;
+            background-color: black;
+            align-items: center;
+            flex-flow: column;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            color: white;
+        }
+
+        .head2 {
+            color: white;
+            padding-left: 166px;
+            padding-top: 50px;
+            padding-bottom: 30px;
+        }
+
+        .head3 {
+            margin-left: 50px;
+            padding-left: 118px;
+            color: white;
+            font-family: unset;
+            font-size: 24px;
+            font-weight: 600;
+            padding-bottom: 5px;
+        }
+
+        .rh {
+            font-family: unset;
+            font-size: 24px;
+            font-weight: 600;
+        }
+
+        .rp {
+            font-family: unset;
+            font-size: 18px;
+            font-weight: 400;
+            padding-top: 20px;
+        }
+
+        .email2 {
+            padding-right: 330px;
+            padding-top: 22px;
+            padding-bottom: 19px;
+            color: white;
+            border-radius: 6px;
+            padding-left: 15px;
+            background-color: black;
+            border-color: white;
+            margin-top: 20px;
+        }
+
+        .movie {
+            flex: 1;
+            border-radius: 10px;
+        }
+
+        .af0 {
+            background-color: black;
+        }
+
+        .question {
+            font-family: unset;
+            font-size: 24px;
+            font-weight: 400;
+            padding: 24px;
+            background-color: #4f4848ab;
+            cursor: pointer;
+            color: white;
+        }
+
+        .question:hover {
+            background-color: rgb(73, 68, 68);
+        }
+
+        .box1,
+        .box2,
+        .box3,
+        .box4,
+        .box5,
+        .box6 {
+            font-family: unset;
+            font-size: 24px;
+            font-weight: 400;
+            display: none;
+            padding-top: 20px;
+        }
+
+        #toggle1:checked+.box1,
+        #toggle2:checked+.box2,
+        #toggle3:checked+.box3,
+        #toggle4:checked+.box4,
+        #toggle5:checked+.box5,
+        #toggle6:checked+.box6 {
+            display: block;
+
+        }
+
+        .head4 {
+            padding-left: 166px;
+            font-family: unset;
+            font-size: 24px;
+            font-weight: 600;
+            color: white;
+            padding-bottom: 12px
+        }
+
+        .af2 {
+            background-color: black;
+            padding-top: 15px;
+        }
+
+        .footer2 {
+            max-width: 75vw;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            padding-left: 166px;
+            row-gap: 20px;
+        }
+
+        .af3 {
+            background-color: black;
+            padding-bottom: 50px;
+        }
+
+        .footer2 a {
+            display: block;
+            text-decoration: underline;
+            color: white;
+        }
+
+        .head5 {
+            color: white;
+            padding-left: 166px;
+            padding-bottom: 50px;
+            padding-top: 60px;
+        }
+
+        .af4 {
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            background-color: black;
+            color: white;
+            padding-left: 166px;
+            padding-bottom: 200px;
+        }
+
+        .af5 {
+            display: flex;
+        }
+
+        #i {
+            width: 75px;
+            position: relative;
+            bottom: -70px;
+            right: -180px;
+        }
+
+        .f1 {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
